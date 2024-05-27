@@ -2,8 +2,16 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\PaisController;
+use App\Http\Controllers\InquilinoController;
+use App\Http\Controllers\DepartamentoController;
+use App\Http\Controllers\AlquilerController;
+
+
 
 class HomeController extends Controller
 {

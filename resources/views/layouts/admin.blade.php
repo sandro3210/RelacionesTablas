@@ -63,6 +63,7 @@
             </a>
         </li>
 
+
         <!-- Nav Item - About -->
         <li class="nav-item {{ Nav::isRoute('about') }}">
             <a class="nav-link" href="{{ route('about') }}">
@@ -70,6 +71,50 @@
                 <span>{{ __('About') }}</span>
             </a>
         </li>
+        <!-- Usuarios -->
+        <hr class="sidebar-divider">
+        <div class="sidebar-heading">
+            {{ __('CRUD') }}
+        </div>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('usuarios.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('Usuarios') }}</span>
+            </a>
+        </li>
+ 
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('paises.index') }}">
+                <i class="fas fa-fw fa-globe"></i>
+                <span>{{ __('Paises') }}</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('inquilinos.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('Inquilinos') }}</span>
+            </a>
+        </li>
+
+        <!--Departamento -->
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('departamentos.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('departamento') }}</span>
+            </a>
+        </li>
+        <!--Alquiler -->
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('alquileres.index') }}">
+                <i class="fas fa-fw fa-users"></i>
+                <span>{{ __('alquiler') }}</span>
+            </a>
+        </li>
+        
+
+        
+
 
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
